@@ -12,25 +12,36 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
     background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    max-width: 600px;
 }
 
 h1 {
     font-size: 2rem;
+    color: #333333; /* Цвет текста заголовка - слегка черный */
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #444444; /* Цвет текста подзаголовка - слегка черный */
 }
 
 .skills-container {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Skills: всегда слева */
-    font-size: 1.5rem;
-    font-weight: bold;
+    justify-content: flex-start;
+    font-size: 2rem; /* Тот же размер шрифта, что у h1 */
+    font-weight: normal;
     margin-top: 20px;
+    color: #333333; /* Цвет текста как у заголовка (слегка черный) */
 }
 
 .skills-title {
@@ -39,7 +50,7 @@ h1 {
 }
 
 .tech-stack {
-    color: #0077cc;
+    color: #0077cc; /* Цвет текста для стека технологий */
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
@@ -48,16 +59,57 @@ h1 {
 }
 
 @keyframes blink {
-    50% { border-color: transparent; }
+    50% {
+        border-color: transparent;
+    }
 }
 
 .social-links {
-    margin-top: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; /* Центрируем кнопки */
+    gap: 10px; /* Расстояние между кнопками */
 }
 
 .social-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #0077cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;  /* Устанавливаем фиксированный размер кнопок */
+    height: 50px; /* Кнопки круглыми */
+    background-color: transparent; /* Убираем фон */
+    border: none; /* Убираем границу */
+    color: #333; /* Цвет иконки - темно-серый */
+    font-size: 25px; /* Размер иконки */
+    text-decoration: none; /* Убираем подчеркивание */
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0077cc; /* Цвет иконки при наведении */
+}
+
+/* Респонсивность */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Меньший размер для h1 на маленьких экранах */
+    }
+
+    h2 {
+        font-size: 1.3rem; /* Меньший размер для h2 на маленьких экранах */
+    }
+
+    .skills-container {
+        font-size: 1.3rem; /* Меньший размер шрифта для стека технологий на маленьких экранах */
+    }
+
+    .social-links a {
+        width: 40px;  /* Уменьшаем размер кнопок для маленьких экранов */
+        height: 40px;
+        font-size: 20px; /* Уменьшаем размер иконок */
+    }
 }
