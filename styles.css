@@ -43,7 +43,7 @@ h2 {
     font-size: 2rem; /* Тот же размер шрифта, что у h1 */
     font-weight: normal;
     margin-top: 80px; /* Интервал сверху от контейнера skills */
-    margin-bottom: 800px; /* Интервал снизу от skills */
+    margin-bottom: 80px; /* Интервал снизу от skills */
     color: #333333; /* Цвет текста как у заголовка (слегка черный) */
 }
 
