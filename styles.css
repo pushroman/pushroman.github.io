@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'BetterVCR';
-    src: url('BetterVCR.ttf'), sans-serif;
+    src: url('/fonts/BetterVCR.ttf'), format('truetype');
 }
 
 body {
