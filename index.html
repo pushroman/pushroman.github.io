@@ -1,63 +1,28 @@
-@font-face {
-    font-family: 'BetterVCR';
-    src: url('BetterVCR.ttf') format('truetype');
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hi, I'm an iOS Developer!</h1>
 
-body {
-    font-family: 'BetterVCR', sans-serif;
-    text-align: center;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 20px;
-}
+        <div class="skills-container">
+            <span class="skills-title">Skills:</span>
+            <span class="tech-stack"></span>
+        </div>
 
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
+        <h2>Connect with me:</h2>
+        <div class="social-links">
+            <a href="#" target="_blank">Telegram</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
+        </div>
+    </div>
 
-h1 {
-    font-size: 2rem;
-}
-
-.skills-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* Skills: всегда слева */
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-.skills-title {
-    white-space: nowrap;
-    margin-right: 10px;
-}
-
-.tech-stack {
-    color: #0077cc;
-    overflow: hidden;
-    white-space: nowrap;
-    display: inline-block;
-    border-right: 2px solid #0077cc;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-
-.social-links {
-    margin-top: 20px;
-}
-
-.social-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #0077cc;
-}
+    <script src="script.js"></script>
+</body>
+</html>
