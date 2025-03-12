@@ -40,7 +40,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 1rem; /* Тот же размер шрифта, что у h1 */
+    font-size: 0.5rem; /* Тот же размер шрифта, что у h1 */
     font-weight: normal;
     margin-top: 80px; /* Интервал сверху от контейнера skills */
     margin-bottom: 80px; /* Интервал снизу от skills */
