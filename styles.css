@@ -53,7 +53,7 @@ h2 {
 }
 
 .tech-stack {
-    color: #0077cc; /* Цвет текста для стека технологий */
+    color: #c1c1c1; /* Цвет текста для стека технологий */
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
@@ -89,7 +89,7 @@ h2 {
 }
 
 .social-links a:hover {
-    color: #0077cc; /* Цвет иконки при наведении */
+    color: #c1c1c1; /* Цвет иконки при наведении */
 }
 
 /* Респонсивность */
