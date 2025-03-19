@@ -1,4 +1,4 @@
-const skills = ["Swift", "UIKit", "SwiftUI", "MVC", "MVP", "MVVM", "Design Patterns", "Core Data", "AVFoundation", "Core Bluetooth", "Combine"];
+const skills = ["Swift", "UIKit", "SwiftUI", "MVC", "MVP", "MVVM", "Design Patterns"];
 const techStackElement = document.querySelector(".tech-stack");
 
 let skillIndex = 0;
