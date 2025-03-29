@@ -116,3 +116,29 @@ h2 {
         font-size: 20px; /* Уменьшаем размер иконок */
     }
 }
+
+/* Стили для macOS-кнопок */
+.mac-buttons {
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.mac-buttons span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.close { background: #ff5f57; }
+.minimize { background: #ffbd2e; }
+.maximize { background: #28c840; }
+
+/* Чтобы кнопки не налезали на контент */
+.container {
+    position: relative;
+    padding-top: 40px;
+}
