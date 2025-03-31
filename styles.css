@@ -122,8 +122,8 @@ h2 {
     display: flex;
     gap: 8px;
     position: absolute;
-    top: 12px;
-    left: 12px;
+    top: 14px;
+    left: 14px;
 }
 
 .mac-buttons span {
